@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<MinhasMusicas>
+	<Musica>
+		<Titulo>Under Pressure</Titulo>
+		<Artista>Queen</Artista>
+		<Duracao>4:06</Duracao>
+	</Musica>
+	<Musica>
+		<Titulo>Space Oddity</Titulo>
+		<Artista>David Bowie</Artista>
+		<Duracao>5:15</Duracao>
+	</Musica>	
+	<Musica>
+		<Titulo>Twist and Shout</Titulo>
+		<Artista>The Beatles</Artista>
+		<Duracao>2:34</Duracao>
+	</Musica>		
+</MinhasMusicas>

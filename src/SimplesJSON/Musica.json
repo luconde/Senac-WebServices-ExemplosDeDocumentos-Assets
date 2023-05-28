@@ -1,0 +1,19 @@
+{
+	"Musicas" : [
+		{
+			"Titulo" : "Under Pressure",
+			"Artista" : "Queen",
+			"Duracao" : "4:06"
+		},
+		{
+			"Titulo" : "Space Oddity",
+			"Artista" : "David Bowie",
+			"Duracao" : "5:15"		
+		},
+		{
+			"Titulo" : "Twist and Shout",
+			"Artista" : "The Beatles",
+			"Duracao" : "2:34"	
+		}		
+	]
+}

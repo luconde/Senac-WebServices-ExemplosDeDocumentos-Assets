@@ -1,0 +1,43 @@
+<html>
+<head>
+<script>
+    var Colecao = {
+	"Musicas" : [
+		{
+			"Titulo" : "Under Pressure",
+			"Artista" : "Queen",
+			"Duracao" : "4:06"
+		},
+		{
+			"Titulo" : "Space Oddity",
+			"Artista" : "David Bowie",
+			"Duracao" : "5:15"		
+		},
+		{
+			"Titulo" : "Twist and Shout",
+			"Artista" : "The Beatles",
+			"Duracao" : "2:34"	
+		}		
+	]
+};
+    function OnClick() {
+        txtTitulo.value = Colecao.Musicas[txtNumero.value].Titulo;
+        txtArtista.value = Colecao.Musicas[txtNumero.value].Artista;
+        txtDuracao.value = Colecao.Musicas[txtNumero.value].Duracao;
+    }
+</script>
+</head>
+<body>
+    <label>Numero entre 0 e 2</label>
+    <input type="text" id="txtNumero"/>
+    <br/>
+    <input type="button" value="Clique aqui" onclick="OnClick()"/>
+    <br/>
+    <input type="text" id="txtTitulo"/>
+    <br/>
+    <input type="text" id="txtArtista"/>
+    <br/>
+    <input type="text" id="txtDuracao"/>
+    <br/>    
+</body>
+</html>
